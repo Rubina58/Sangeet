@@ -6,18 +6,18 @@ const Footer = () => {
     <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         {/* Left Section: Logo and Description */}
         <div className="mb-4 md:mb-0">
-            <a href="#" className="text-[#2C3E50] font-bold text-lg">YourLogo</a>
+            <a href="#" className="text-[#2C3E50] font-bold text-lg">Sangeet</a>
             <p className="text-[#95A5A6] mt-2">Bringing you the best music experience.</p>
         </div>
 
         {/* Middle Section: Quick Links */}
-        <div className="mb-4 md:mb-0">
+        {/* <div className="mb-4 md:mb-0">
             <ul className="flex space-x-4">
                 <li><a href="#" className="text-[#2C3E50] hover:text-[#8E44AD]">About Us</a></li>
                 <li><a href="#" className="text-[#2C3E50] hover:text-[#8E44AD]">Contact</a></li>
                 <li><a href="#" className="text-[#2C3E50] hover:text-[#8E44AD]">Privacy Policy</a></li>
             </ul>
-        </div>
+        </div> */}
 
         {/* Right Section: Social Media Icons */}
         <div className="flex space-x-4">
